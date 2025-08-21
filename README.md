@@ -1,5 +1,5 @@
-# Index.html
-<!doctype html>
+h# Index.html
+    <!doctype html>
 
 <html lang="en">
 <head>
@@ -43,28 +43,28 @@
           <button id="btnReset" class="text-xs px-3 py-1 rounded-full border border-white/10 hover:bg-white/5">Reset</button>
         </div><div class="grid grid-cols-2 gap-3">
       <label class="text-sm">Total Pool (tokens)
-        <input id="totalPool" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="100000" />
+        <input id="totalPool" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="10000000" />
       </label>
       <label class="text-sm">Decimals (display)
         <input id="decimals" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="2" />
       </label>
       <label class="text-sm">Weight Alpha (0.5–1.0)
-        <input id="alpha" type="number" step="0.01" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="0.7" />
+        <input id="alpha" type="number" step="0.01" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="1.0" />
       </label>
       <label class="text-sm">XP Floor (min)
         <input id="xpFloor" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="1" />
       </label>
       <label class="text-sm">XP Cap (max)
-        <input id="xpCap" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="100000" />
+        <input id="xpCap" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="1256" />
       </label>
       <label class="text-sm">Per-User Min
         <input id="minAlloc" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="0" />
       </label>
       <label class="text-sm">Per-User Max
-        <input id="maxAlloc" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="1000" />
+        <input id="maxAlloc" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="1000000000000" />
       </label>
       <label class="text-sm">Role Boost (%)
-        <input id="roleBoost" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="20" />
+        <input id="roleBoost" type="number" class="mt-1 w-full rounded-xl px-3 py-2 border border-white/10" value="0" />
       </label>
     </div>
 
